@@ -3,6 +3,9 @@
 
 #### AUTEURS: NGABONZIZA Aimé @angaboli | DOUMBIA Faciqui
 
+Description
+===========
+This web application will be for creating and managing questions and calculating the result at the end of the questionnaire.
 
 Chronology
 ==========
