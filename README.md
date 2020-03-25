@@ -1,6 +1,4 @@
-# quizCreatorApp
-
-Project : quizCreatorApp
+# Project : quizCreatorApp
 ========================
 
 #### AUTEURS: NGABONZIZA Aimé @angaboli | DOUMBIA Faciqui
