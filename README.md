@@ -27,3 +27,12 @@ Planning
                 |__Production 17/04
 
 ```
+Platform
+--------
+* Apache Server
+* MySQL
+* php7
+
+UML
+===
+![](model.pdf)
