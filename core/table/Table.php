@@ -50,6 +50,15 @@ class Table{
         );
         
     }
+
+    public function count(){
+        return $this->query("
+            SELECT COUNT(*) as numbers
+            FROM  {$this->table}
+
+            "
+        );
+    }
     
     public function update($id, $fields){
         $sql_parts = [];
@@ -68,14 +77,13 @@ class Table{
         );
     }
     
-    public function create($fields){
+    public function create( $fields){
         $sql_parts = [];
         $attributes = [];
         foreach ($fields as $k => $v){
             $sql_parts[] = "$k = ?";
             $attributes[] = $v;
         }
-       
         $sql_part = implode(', ', $sql_parts);
         
         return $this->query("

@@ -14,6 +14,7 @@ class Controller{
         extract($variables);
         require($this->viewPath . str_replace('.', '/', $view) . '.php');
         $content = ob_get_clean();
+        $listSurveys = ob_get_clean();
         require($this->viewPath . 'templates/' . $this->template . '.php'); 
     }
 
@@ -29,5 +30,3 @@ class Controller{
  
 
 }
-
-?>

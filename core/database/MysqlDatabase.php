@@ -62,12 +62,9 @@ class MysqlDatabase extends Database{
         strpos($statment, 'DELETE', 0)  ;
 
         if($noFetch
-            
-            
             ) { 
                 
                 return $req->execute($attributes);
-
         }        
         $req->execute($attributes);
         

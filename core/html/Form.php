@@ -48,5 +48,3 @@ class Form{
         return '<button type="submit">Envoyer</button>';
     }
 }
-
-?>

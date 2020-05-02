@@ -7,7 +7,7 @@ App::load();
 if(isset($_GET['p'])){
     $page = $_GET['p'];
 }else{
-    $page = 'questions.index';
+    $page = 'questionnaires.index';
 }
 
 

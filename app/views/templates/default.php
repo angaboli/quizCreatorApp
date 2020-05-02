@@ -29,7 +29,7 @@
     
       <main role="main"  class="container">
 
-        <div class="starter-template "  style="margin-top: 100px;">
+        <div class="starter-template shadow"  style="margin-top: 100px; padding: 50px;">
 
           <?= $content; ?>
 
