@@ -1,11 +1,11 @@
 # Project : surveyCreator
 =========================
 
-#### AUTEURS: NGABONZIZA Aimé @angaboli | DOUMBIA Faciqui
+#### AUTEUR: NGABONZIZA Aimé @angaboli 
 
 Description
 ===========
-This web application will be for creating and managing questions and calculating the result at the end of the questionnaire.
+This web application is a system to create questionnaire and managing theme including there questions, then calculate the result at the end of the questionnaire.
 
 Chronology
 ==========
@@ -31,6 +31,7 @@ Planning
         |__Development -> 01/04
             |__Recipe -> 15/04
                 |__Production 17/04
+			
 
 ```
 
@@ -38,91 +39,57 @@ Arborescence du Projet
 ======================
 ```
 
-C:.
-│   .gitignore
-│   README.md
-│
 ├───app
-│   │   App.php
-│   │   Autoloader.php
-│   │
 │   ├───controller
-│   │   │   AppController.php
-│   │   │   QuestionsController.php
-│   │   │   UsersController.php
-│   │   │
 │   │   └───admin
-│   │           AppController.php
-│   │           QuestionsController.php
-│   │
 │   ├───entity
-│   │       QuestionEntity.php
-│   │
 │   ├───table
-│   │       QuestionTable.php
-│   │       TypeTable.php
-│   │       UserTable.php
-│   │
 │   └───views
 │       ├───admin
-│       │   └───questions
-│       │           edit.php
-│       │           index.php
-│       │
+│       │   ├───dashboard
+│       │   ├───questions
+│       │   ├───results
+│       │   └───surveys
+│       ├───questionnaires
 │       ├───questions
-│       │       index.php
-│       │
 │       ├───templates
-│       │       admin.php
-│       │       default.php
-│       │
 │       └───users
-│               login.php
-│
 ├───config
-│       config.php
-│
 ├───core
-│   │   Autoloader.php
-│   │   Config.php
-│   │
 │   ├───auth
-│   │       DBAuth.php
-│   │
 │   ├───controller
-│   │       Controller.php
-│   │
 │   ├───database
-│   │       Database.php
-│   │       MysqlDatabase.php
-│   │
 │   ├───entity
-│   │       Entity.php
-│   │
 │   ├───html
-│   │       BootstrapForm.php
-│   │       Form.php
-│   │
 │   └───table
-│           Table.php
-│
-├───nbproject
-│   │   project.properties
-│   │   project.xml
-│   │
-│   └───private
-│           config.properties
-│           private.properties
-│           private.xml
-│
-├───public
-│   │   .buildpath
-│   │   .project
-│   │   index.php
-│   │
-│   ├───css
-│   └───js
-└───quiz
+└───public
+    ├───css
+    ├───images
+    ├───js
+    │   └───demo
+    └───vendor
+        ├───bootstrap
+        │   ├───js
+        │   └───scss
+        │       ├───mixins
+        │       ├───utilities
+        │       └───vendor
+        ├───chart.js
+        ├───datatables
+        ├───fontawesome-free
+        │   ├───css
+        │   ├───js
+        │   ├───less
+        │   ├───scss
+        │   ├───sprites
+        │   ├───svgs
+        │   │   ├───brands
+        │   │   ├───regular
+        │   │   └───solid
+        │   └───webfonts
+        ├───jquery
+        └───jquery-easing
+
 
 ```
 UML
