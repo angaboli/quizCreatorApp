@@ -7,30 +7,22 @@ Description
 ===========
 This web application is a system to create questionnaire and managing theme including there questions, then calculate the result at the end of the questionnaire.
 
-Chronology
-==========
-
-* Need
-* Environment
-* Developement
-* Recipe
-* Production
 
 Platform
 --------
 * Apache Server
 * MySQL
 * php7
+* 
 
-Planning
-========
-```
-.
-|__Need -> 30/03
-    |__Environment -> 30/03
-        |__Development -> 01/04
-            |__Recipe -> 15/04
-                |__Production 17/04
+Commment récuper le projet 
+==========================
+* Lancer le terminal de commande
+* Entrer la commande suivante :
+$ git@github.com:angaboli/quizCreatorApp.git
+
+
+
 			
 
 ```
@@ -92,6 +84,14 @@ Arborescence du Projet
 
 
 ```
-UML
-===
-![](model.png)
+
+Comment démarrer ce projet
+==========================
+
+* Lancer votre serveur Apache
+* Placer vous dans le repertoire config pour configurer la connection a la base de donnée.
+* Dans votre navigateur, placer vous dans la repertoire public pour démarer l'application : 
+    localhost//surveyCreator/public/index.php
+
+* Pour lancer l'administration et gérer les questionnaire :
+    localhost//surveyCreator/public/index.php?admin.index
