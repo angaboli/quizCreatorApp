@@ -19,13 +19,8 @@ Commment récuper le projet
 ==========================
 * Lancer le terminal de commande
 * Entrer la commande suivante :
-$ git@github.com:angaboli/quizCreatorApp.git
+    $ git@github.com:angaboli/quizCreatorApp.git
 
-
-
-			
-
-```
 
 Arborescence du Projet
 ======================
