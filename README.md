@@ -13,7 +13,6 @@ Platform
 * Apache Server
 * MySQL
 * php7
-* C# 
 
 Commment récuper le projet 
 ==========================
